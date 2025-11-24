@@ -1,0 +1,65 @@
+# ───────────────────────────────
+#  NODE / GENERAL
+# ───────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# No ignorar package-lock si lo usas
+# elimina este si quieres versionarlo
+package-lock.json
+
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+*.log.*
+log.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Cache y temporales
+.tmp/
+temp/
+.cache/
+
+# ───────────────────────────────
+#  FRONTEND (Next.js)
+# ───────────────────────────────
+frontend/.next/
+frontend/.next/cache/
+frontend/out/
+frontend/.turbopack/
+frontend/.vercel/
+
+# ───────────────────────────────
+#  BACKEND (Express + TypeScript)
+# ───────────────────────────────
+backend/dist/
+backend/build/
+backend/**/*.js
+backend/**/*.js.map
+
+# Cache de TypeScript
+*.tsbuildinfo
+
+# ───────────────────────────────
+#  EDITORES
+# ───────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ───────────────────────────────
+#  DOCKER
+# ───────────────────────────────
+docker-data/
